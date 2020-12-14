@@ -4,7 +4,9 @@ import ReleaseBox from './containers/ReleaseBox';
 
 function App() {
   return (
-    <ReleaseBox />
+    <div className="App">
+      <ReleaseBox />
+    </div>
   );
 }
 

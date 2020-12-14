@@ -10,9 +10,9 @@ const ReleaseList = ({releases}) => {
     })
 
     return (
-        <>
+        <ul className="release-list">
         {releaseNodes}
-        </>
+        </ul>
     )
 }
 

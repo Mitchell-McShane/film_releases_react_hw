@@ -34,11 +34,13 @@ const ReleaseBox = () => {
       const [releases, setReleases] = useState(initialState);
 
       return (
-          <>
+        <>
           <h1>Upcoming Film Releases for UK</h1>
           <ReleaseList releases ={releases}/>
-          <a href="https://www.imdb.com/calendar/?region=gb"><h2>View more upcoming releases</h2></a>
-          </>
+          <div className="link-imdb">
+            <a href="https://www.imdb.com/calendar/?region=gb"><h2>View more upcoming releases</h2></a>
+          </div>
+        </>
       );
 
 }
