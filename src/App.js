@@ -1,9 +1,10 @@
 
 import './App.css';
+import ReleaseBox from './containers/ReleaseBox';
 
 function App() {
   return (
-    <h1>Hello World</h1>
+    <ReleaseBox />
   );
 }
 
