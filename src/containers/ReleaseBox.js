@@ -11,22 +11,23 @@ const ReleaseBox = () => {
         },
         {
           id: 2,
-          name: "Life Itself",
-          url: "https://www.imdb.com/title/tt5989218/?ref_=rlm"
+          name: "Wonder Woman 1984",
+          url: "https://www.imdb.com/title/tt7126948/?ref_=rlm"
         },
         {
           id: 3,
-          name: "Mary Queen of Scots",
-          url: "https://www.imdb.com/title/tt2328900/?ref_=rlm"
+          name: "The Haunting of Alice Bowles",
+          url: "https://www.imdb.com/title/tt13342216/?ref_=rlm"
         },
         {
           id: 4,
-          name: "The Lego Movie 2: The Second Part", url: "https://www.imdb.com/title/tt3513498/?ref_=rlm"
+          name: "Let Him Go", 
+          url: "https://www.imdb.com/title/tt9340860/?ref_=rlm"
         },
         {
           id: 5,
-          name: "Captain Marvel",
-          url: "https://www.imdb.com/title/tt4154664/?ref_=rlm"
+          name: "The Croods 2",
+          url: "https://www.imdb.com/title/tt2850386/?ref_=rlm"
         }
       ];
 
@@ -36,7 +37,7 @@ const ReleaseBox = () => {
           <>
           <h1>Upcoming Film Releases for UK</h1>
           <ReleaseList releases ={releases}/>
-          <a href="https://www.imdb.com/calendar/?region=gb"><h2>View more upcoming releases >></h2></a>
+          <a href="https://www.imdb.com/calendar/?region=gb"><h2>View more upcoming releases</h2></a>
           </>
       );
 
