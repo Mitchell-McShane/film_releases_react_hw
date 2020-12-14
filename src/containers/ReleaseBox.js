@@ -36,6 +36,7 @@ const ReleaseBox = () => {
           <>
           <h1>Upcoming Film Releases for UK</h1>
           <ReleaseList releases ={releases}/>
+          <a href="https://www.imdb.com/calendar/?region=gb"><h2>View more upcoming releases >></h2></a>
           </>
       );
 
